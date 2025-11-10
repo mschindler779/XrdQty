@@ -57,7 +57,7 @@ import XrdQty
 ### Initiate XrdQty
 Tool initializing as:
 ```
-xrd_qty = XrdQty(start_angle = 10, stop_angle = 90, angle_steps = 8501, "model_name")
+xrd_qty = XrdQty.XrdQty(start_angle = 10, stop_angle = 90, angle_steps = 8501, model_name = "model_name")
 ```
 
 ### Create Training Data
